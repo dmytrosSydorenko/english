@@ -1,0 +1,48 @@
+body {
+	margin: 0;
+}
+label {
+	display: block;
+}
+#error {
+	display: none;
+	
+}
+.success {
+	background: green;
+}
+.fail {
+	background: red;
+}
+
+input[type=text] {
+	padding: 10px;
+	background: #fff;
+	border: 1px solid #d1d1d1;
+	border-radius: 2px;
+	color: #474747;
+	height: 42px;
+	outline: none;
+	line-height: normal;
+}
+input[type=text]:focus {
+	border-color: #038cd6;
+}
+button {
+	line-height: 38px;
+	-webkit-appearance: none;
+	border: 1px solid #008e52;
+	border-radius: 3px;
+	cursor: pointer;
+	display: inline-block;
+	vertical-align: top;
+	padding: 1px 16px;
+	outline: none;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	transition: all .125s;
+	background: #43c682;
+	background-image: linear-gradient(180deg, #43c682, #02a962);
+	color: #fff;
+}
